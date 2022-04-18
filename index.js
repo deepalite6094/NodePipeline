@@ -10,7 +10,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
 app.get("/", (req, res) => {
-  res.send("<h1>Fyniti Iq Payment running, updated deployment again</h1>")
+  res.send("<h1>Fyniti Iq Payment running</h1>")
 })
 
 const httpServer = http.createServer(app);
